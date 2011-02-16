@@ -20,9 +20,11 @@
       <RowDefinition/>
       <RowDefinition Height="35"/>
     </Grid.RowDefinitions>
+    <TextBlock Grid.Row="0" Text="Lords of Utopia Online" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" />
     <ComboBox Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Center" Name="cbx_Culture" ItemsSource="{Binding CultureName}" SelectedItem="{Binding SelectedCultureName}" />
     <Frame Grid.Row="1" Name="FramePagePrincipale" Background="LightGray"/>
-    <TextBlock Grid.Row="2" Text="{Binding ResourceLabelDownload}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+    <TextBlock Grid.Row="2" Text="{Binding AllResources.ResourceLabelDownload}" HorizontalAlignment="Left" VerticalAlignment="Top" />
     <ProgressBar Grid.Row="2" Width="500" Height="15" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+    <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="2"  Content="{Binding AllResources.ResourceBtnPlay}" Height="30" Width="100"/>
   </Grid>
 </Window>

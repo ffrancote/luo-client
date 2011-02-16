@@ -88,7 +88,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\PropertiesResource.cs" />
+    <Compile Include="Models\PropertiesResource.cs" />
     <Compile Include="Views\Authentificateur.xaml.cs">
       <DependentUpon>Authentificateur.xaml</DependentUpon>
     </Compile>

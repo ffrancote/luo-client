@@ -61,6 +61,15 @@ namespace Luo_Login.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Play.
+        /// </summary>
+        public static string Btn_Play {
+            get {
+                return ResourceManager.GetString("Btn_Play", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Download.
         /// </summary>
         public static string Label_Download {
